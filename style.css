@@ -32,7 +32,6 @@
     align-items: center;
   }
 
-
   #profile {
     height: 35px;
     width: 35px;
@@ -91,7 +90,7 @@
   .sidebar ul {
     list-style: none;
   }
-  .menu-btn i{
+  .menu-btn i {
     font-size: 1.5rem;
   }
 
@@ -125,8 +124,8 @@
 
   #list {
     flex: 0 0 auto;
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
     border: 2px solid none;
     border-radius: 50%;
     background-size: cover;
@@ -183,6 +182,10 @@
     background-position: center;
   }
 
+  #p1 {
+    background: url(https://i.pinimg.com/736x/87/5b/4f/875b4fb82c44a038466807b0dcf884cc.jpg);
+    background-size: cover;
+  }
   #p2 {
     background: url(https://i.pinimg.com/736x/15/8b/f9/158bf91d97fa74c200f297ffd0d07668.jpg);
     background-size: cover;
@@ -203,14 +206,31 @@
     background: url(https://i.pinimg.com/736x/b4/b3/2a/b4b32a53baf66255c04550c7f7ec982a.jpg);
     background-size: cover;
   }
+  #p7 {
+    background: url(https://i.pinimg.com/1200x/d2/12/20/d21220e93ff8b3e624442a30d1938557.jpg);
+    background-size: cover;
+  }
+  #p8 {
+    background: url(https://i.pinimg.com/736x/bd/b4/09/bdb409640909faf7c63d74afc37280b8.jpg);
+    background-size: cover;
+  }
+  #p9 {
+    background: url(https://i.pinimg.com/736x/6d/20/e1/6d20e1e12d106ec15714dfadc2966861.jpg);
+    background-size: cover;
+  }
+  #p10 {
+    background: url(https://i.pinimg.com/736x/41/2a/b6/412ab615d90c4b1d052d9c1ebe729bfd.jpg);
+    background-size: cover;
+  }
 
   .contant-list {
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 20px;
     overflow-x: auto;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    gap: 1.8vw;
   }
 
   .contant-list::-webkit-scrollbar {
@@ -227,8 +247,8 @@
   }
 
   .names:hover {
-    background-color: rgb(42, 41, 41);
-    color: white;
+    background-color: white;
+    color: black;
   }
 
   #all {
@@ -237,7 +257,7 @@
   }
 
   .cards {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .card-text {
@@ -251,7 +271,7 @@
   }
 
   .name {
-    padding-bottom: 10px;
+    padding-bottom: 2px;
   }
 
   .card-img {
@@ -264,43 +284,99 @@
     align-items: center;
     justify-content: center;
     margin: 0px 10px;
+
     border-radius: 5px;
   }
 
   #img0 {
-    background: url(https://i.pinimg.com/1200x/e6/4c/a1/e64ca1bbbfcc6194e9f7f5cad6287eba.jpg);
+    background: url(https://i.pinimg.com/736x/ed/4a/64/ed4a64aa708c746613eaab99f3e8d4bc.jpg);
+
     background-size: cover;
     background-position: center;
+    margin: auto;
+    object-fit: cover;
   }
 
   #img1 {
-    background: url(https://i.pinimg.com/1200x/1e/94/0b/1e940b78b0e78218c95f98393d27d2de.jpg);
+    background: url(https://i.pinimg.com/1200x/9f/9d/93/9f9d93151a982a2ff6f3409ea148f0b2.jpg);
+
     background-size: cover;
     background-position: center;
+    margin: auto;
+    object-fit: cover;
   }
 
   #img2 {
-    background: url(https://i.pinimg.com/1200x/9f/57/6b/9f576b32e77991d40f9774e9918b4b0c.jpg);
+    background: url(https://i.pinimg.com/736x/9f/57/6b/9f576b32e77991d40f9774e9918b4b0c.jpg);
     background-size: cover;
     background-position: center;
+    margin: auto;
+    object-fit: cover;
   }
 
   #img3 {
     background: url(https://i.pinimg.com/1200x/e1/a7/30/e1a730dac899f2775698bd4d512d2113.jpg);
     background-size: cover;
     background-position: center;
+    margin: auto;
+    object-fit: cover;
   }
 
   #img4 {
     background: url(https://i.pinimg.com/736x/b6/8b/29/b68b296e6b10045aa28479564f5749e4.jpg);
     background-size: cover;
     background-position: center;
+    margin: auto;
+    object-fit: cover;
   }
 
   #img5 {
-    background: url(https://i.pinimg.com/736x/80/86/bd/8086bd6b9c368244b96403c5e6e3b290.jpg);
+    background: url(https://i.pinimg.com/736x/90/d2/fb/90d2fb9d49910b818e92a866df847131.jpg);
     background-size: cover;
     background-position: center;
+    object-fit: cover;
+    margin: auto;
+    object-fit: cover;
+  }
+  #img6 {
+    background: url(https://i.pinimg.com/736x/7f/78/9c/7f789c7507c4df85cdbf4af5fb8c134b.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: auto;
+    object-fit: cover;
+  }
+  #img7 {
+    background: url(https://i.pinimg.com/1200x/6e/e5/c7/6ee5c799d76bf37fc35d26e55acc8cf0.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: auto;
+    object-fit: cover;
+  }
+  #img7 {
+    background: url(https://i.pinimg.com/1200x/b4/78/e7/b478e7d518bfd8459291852193f1546c.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: auto;
+    object-fit: cover;
+  }
+  #img8 {
+    background: url(https://i.pinimg.com/736x/53/88/29/53882923ad25f5abc7dfd165f95adee2.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: auto;
+    object-fit: cover;
+  }
+  #img9 {
+    background: url(https://i.pinimg.com/736x/82/2f/a2/822fa20c05e3048434cfbf122b4e90f1.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: auto;
+    object-fit: cover;
   }
 
   .card-img i {
@@ -395,7 +471,7 @@
 
 @media (max-width: 450px) {
   .card-img {
-    height: 200px;
+    height: 240px;
     width: auto;
     background-size: cover;
     background-position: center;
