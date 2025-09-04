@@ -16,25 +16,27 @@
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    background-color: #121212;
+
+    color: white;
   }
 
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10px;
+    padding: 20px 15px;
   }
 
   .nav-left {
     display: flex;
     align-items: center;
-    gap: 12px;
   }
 
   #profile {
     height: 35px;
     width: 35px;
-    background: url(https://i.pinimg.com/736x/55/68/8d/55688d668f9eb3c7e4c6f2eb96e85283.jpg);
+    background: url(https://i.pinimg.com/736x/7e/34/7c/7e347c28db58da490a88087abfc55ddf.jpg);
     background-size: cover;
     border-radius: 50px;
     background-position: center;
@@ -179,9 +181,26 @@
   }
 
   #p2 {
-    background: url(https://yt3.ggpht.com/zg8p89HakZcrLtIM64Pgu92d9f05mI6e0ZHN60D_sjxetcv_-GViOt-PEpzGJ0t9P8e0XShC=s176-c-k-c0x00ffffff-no-rj-mo);
+    background: url(https://i.pinimg.com/736x/15/8b/f9/158bf91d97fa74c200f297ffd0d07668.jpg);
     background-size: cover;
   }
+  #p3 {
+    background: url(https://i.pinimg.com/1200x/51/51/19/5151198a01ce24a023324bf520c71ac0.jpg);
+    background-size: cover;
+  }
+  #p4 {
+    background: url(https://i.pinimg.com/1200x/c9/5e/a8/c95ea88cd9e3cfa2d2702cde4fdc6355.jpg);
+    background-size: cover;
+  }
+  #p5 {
+    background: url(https://i.pinimg.com/1200x/c8/48/fe/c848fe03bbb96bfe0329133ce653e7c0.jpg);
+    background-size: cover;
+  }
+  #p6 {
+    background: url(https://i.pinimg.com/736x/b4/b3/2a/b4b32a53baf66255c04550c7f7ec982a.jpg);
+    background-size: cover;
+  }
+
   .contant-list {
     display: flex;
     margin-top: 20px;
@@ -276,7 +295,7 @@
   }
 
   #img5 {
-    background: url(https://i.pinimg.com/736x/a1/dc/2a/a1dc2a149f25347ac440683d8fc2dca0.jpg);
+    background: url(https://i.pinimg.com/736x/80/86/bd/8086bd6b9c368244b96403c5e6e3b290.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -306,7 +325,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #272727;
+    background-color: black;
     border-top: 1px solid #333;
     z-index: 999;
   }
