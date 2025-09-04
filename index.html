@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <label for="sidebar-toggle" class="menu-btn">
+            <i class="ri-menu-line"></i>
+          </label>
+
+          <div class="logo">
+            <img
+              src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg"
+              width="110px"
+            />
+          </div>
+        </div>
+
+        <div class="icons">
+          <i class="ri-search-line"></i>
+          <i class="fa-regular fa-bell"></i>
+          <div id="profile"></div>
+        </div>
+      </nav>
+
+      <input type="checkbox" id="sidebar-toggle" hidden />
+
+      <div class="sidebar">
+        <label for="sidebar-toggle" class="close-btn">
+          <i class="ri-close-line"></i>
+        </label>
+        <ul>
+          <li><i class="ri-home-4-line"></i> Home</li>
+          <li><i class="ri-video-line"></i> Shorts</li>
+          <li><i class="ri-youtube-line"></i> Subscriptions</li>
+
+          <br />
+          <hr />
+          <br />
+
+          <li><i class="ri-compass-3-line"></i> Explore</li>
+          <li><i class="ri-history-line"></i> History</li>
+          <li><i class="ri-play-list-line"></i> Playlists</li>
+          <li><i class="ri-thumb-up-line"></i> Liked Videos</li>
+          <li><i class="ri-download-line"></i> Downloads</li>
+
+          <br />
+          <hr />
+          <br />
+
+          <li><i class="ri-settings-3-line"></i> Settings</li>
+          <li><i class="ri-flag-line"></i> Report</li>
+          <li><i class="ri-question-line"></i> Help</li>
+          <li><i class="ri-feedback-line"></i> Feedback</li>
+        </ul>
+      </div>
+
+      <section class="channel-list">
+        <div class="channel1" id="list"></div>
+        <div class="channel2" id="list"></div>
+        <div class="channel3" id="list"></div>
+        <div class="channel4" id="list"></div>
+        <div class="channel5" id="list"></div>
+        <div class="channel6" id="list"></div>
+        <div class="channel7" id="list"></div>
+        <div class="channel8" id="list"></div>
+        <div class="channel9" id="list"></div>
+        <div class="channel10" id="list"></div>
+      </section>
+    </header>
+
+    <main>
+      <section class="contant-list">
+        <div class="names" id="all">All</div>
+        <div class="names">Gaming</div>
+        <div class="names">Music</div>
+        <div class="names">Tech</div>
+        <div class="names">Sports</div>
+        <div class="names">Comedy</div>
+        <div class="names">Coding</div>
+        <div class="names">Vlogs</div>
+        <div class="names">Tutorial</div>
+      </section>
+
+      <section class="cards">
+        <div class="card">
+          <div class="card-img" id="img0">
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <div class="card-text">
+            <div class="card-profile" id="p1"></div>
+            <p class="text">
+              Complete JavaScript Tutorial <br />
+              From Beginner to Advanced
+            </p>
+          </div>
+          <p class="name">Code with Harry • 1.2M views • 2 days ago</p>
+        </div>
+
+        <div class="card">
+          <div class="card-img" id="img1">
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <div class="card-text">
+            <div class="card-profile" id="p2"></div>
+            <p class="text">
+              iPhone 15 Pro Max Review <br />
+              Worth the Upgrade?
+            </p>
+          </div>
+          <p class="name">Technical Guruji • 2.8M views • 1 week ago</p>
+        </div>
+
+        <div class="card">
+          <div class="card-img" id="img2">
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <div class="card-text">
+            <div class="card-profile" id="p3"></div>
+            <p class="text">
+              How to Stay Motivated <br />
+              Life Changing Advice
+            </p>
+          </div>
+          <p class="name">Sandeep Maheshwari • 4.5M views • 3 days ago</p>
+        </div>
+
+        <div class="card">
+          <div class="card-img" id="img3">
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <div class="card-text">
+            <div class="card-profile" id="p3"></div>
+            <p class="text">
+              BGMI New Update 2024 <br />
+              All Features Explained
+            </p>
+          </div>
+          <p class="name">Scout • 1.9M views • 6 hours ago</p>
+        </div>
+
+        <div class="card">
+          <div class="card-img" id="img4">
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <div class="card-text">
+            <div class="card-profile" id="p3"></div>
+            <p class="text">
+              Mumbai Street Food Tour <br />
+              Best Places to Eat
+            </p>
+          </div>
+          <p class="name">Flying Beast • 890K views • 4 days ago</p>
+        </div>
+
+        <div class="card">
+          <div class="card-img" id="img5">
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <div class="card-text">
+            <div class="card-profile" id="p3"></div>
+            <p class="text">
+              React vs Angular 2024 <br />
+              Which is Better for Beginners?
+            </p>
+          </div>
+          <p class="name">Thapa Technical • 650K views • 5 days ago</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-nav">
+        <div class="foot-item">
+          <i class="ri-home-5-line"></i>
+          <p>Home</p>
+        </div>
+        <div class="foot-item">
+          <i class="ri-video-line"></i>
+          <p>Shorts</p>
+        </div>
+        <div class="foot-item create">
+          <i class="ri-add-circle-line" id="ok"></i>
+        </div>
+        <div class="foot-item">
+          <i class="ri-youtube-line"></i>
+          <p>Subscriptions</p>
+        </div>
+        <div class="foot-item">
+          <div class="foot-img"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
