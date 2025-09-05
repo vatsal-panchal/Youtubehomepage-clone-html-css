@@ -483,3 +483,23 @@
     border-radius: 5px;
   }
 }
+
+@media (min-width: 953px) {
+  body {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 100vh;
+    text-align: center;
+  }
+  body * {
+    display: none !important;
+  }
+  body::before {
+    content: " This site is only for Mobile";
+    display: block;
+  }
+}
